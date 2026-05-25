@@ -70,8 +70,8 @@ with st.sidebar:
     model_has_vision = is_vision_model(st.session_state.provider, st.session_state.model)
     
     if not model_has_vision:
-        st.warning(f"⚠️ {st.session_state.model} may not support vision.")
-        st.info(f"💡 Try vision models like GPT-4o, Claude-3, or LLaVA.")
+        st.error(f"⛔ {st.session_state.model} does not support image input.")
+        st.info(f"💡 Switch to a vision model: GPT-4o, Claude-3 Opus/Sonnet, or LLaVA")
     
     st.markdown("---")
     
@@ -245,6 +245,7 @@ with config_col:
         "🔍 Analyze Image" if analysis_mode == "Single Image" else "🔍 Analyze All Images",
         type="primary",
         use_container_width=True,
+        disabled=not model_has_vision,
     )
 
 
