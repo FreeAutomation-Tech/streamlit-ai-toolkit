@@ -81,7 +81,10 @@ jobs:
       - name: Check package metadata
         run: |
           python -c "
-          import tomllib
+          try:
+              import tomllib
+          except ImportError:
+              import tomli as tomllib
           with open('pyproject.toml', 'rb') as f:
               config = tomllib.load(f)
           
