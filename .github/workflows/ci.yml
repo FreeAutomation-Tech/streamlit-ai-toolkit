@@ -78,9 +78,6 @@ jobs:
           for f in pages/*.py; do python -m py_compile "$f"; done
           echo "All Python files have valid syntax"
 
-      - name: Check package metadata
-        run: |
-          python -c "
           try:
               import tomllib
           except ImportError:
