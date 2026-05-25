@@ -296,7 +296,7 @@ with st.sidebar:
     st.markdown("### 🚀 Quick Links")
     
     st.page_link("pages/1_Chat.py", label="💬 Chat", use_container_width=True)
-    st.page_link("pages/2_Document_Q&A.py", label="📄 Document Q&A", use_container_width=True)
+    st.page_link("pages/2_Document_QA.py", label="📄 Document Q&A", use_container_width=True)
     st.page_link("pages/3_Image_Analysis.py", label="🖼️ Image Analysis", use_container_width=True)
     
     st.markdown("---")
@@ -351,7 +351,7 @@ with app_col2:
     - Context-aware responses
     """)
     if st.button("🚀 Open Doc Q&A", use_container_width=True, key="open_doc"):
-        st.switch_page("pages/2_Document_Q&A.py")
+        st.switch_page("pages/2_Document_QA.py")
 
 with app_col3:
     st.markdown("### 🖼️ Image Analysis")
