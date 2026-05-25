@@ -7,9 +7,9 @@
 [![Python](https://img.shields.io/badge/Python-3.9+-blue.svg?logo=python&logoColor=white)](https://python.org)
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.28+-FF4B4B.svg?logo=streamlit&logoColor=white)](https://streamlit.io)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![GitHub Stars](https://img.shields.io/github/stars/anomalyco/streamlit-ai-toolkit?style=social)](https://github.com/anomalyco/streamlit-ai-toolkit/stargazers)
+[![GitHub Stars](https://img.shields.io/github/stars/FreeAutomation-Tech/streamlit-ai-toolkit?style=social)](https://github.com/FreeAutomation-Tech/streamlit-ai-toolkit/stargazers)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
-[![CI](https://github.com/anomalyco/streamlit-ai-toolkit/actions/workflows/ci.yml/badge.svg)](https://github.com/anomalyco/streamlit-ai-toolkit/actions)
+[![CI](https://github.com/FreeAutomation-Tech/streamlit-ai-toolkit/actions/workflows/ci.yml/badge.svg)](https://github.com/FreeAutomation-Tech/streamlit-ai-toolkit/actions)
 
 [Features](#features) • [Quick Start](#quick-start) • [Apps](#apps-showcase) • [Components](#components) • [Deployment](#deployment)
 
@@ -21,7 +21,7 @@
 
 ```bash
 # Clone the repository
-git clone https://github.com/anomalyco/streamlit-ai-toolkit.git
+git clone https://github.com/FreeAutomation-Tech/streamlit-ai-toolkit.git
 cd streamlit-ai-toolkit
 
 # Install dependencies
@@ -52,7 +52,7 @@ Then open your browser to `http://localhost:8501` and start exploring!
 
 ## 📺 Demo
 
-![Streamlit AI Toolkit Demo](https://raw.githubusercontent.com/anomalyco/streamlit-ai-toolkit/main/assets/demo.gif)
+![Streamlit AI Toolkit Demo](https://raw.githubusercontent.com/FreeAutomation-Tech/streamlit-ai-toolkit/main/assets/demo.gif)
 
 *Terminal running `streamlit run app.py` + browser showing the toolkit in action*
 
@@ -71,7 +71,7 @@ A full-featured chat interface with:
 - **Streaming output** — Watch responses appear in real-time
 - **Chat management** — Clear, export, and track message counts
 
-![Chat Interface](https://raw.githubusercontent.com/anomalyco/streamlit-ai-toolkit/main/assets/chat-screenshot.png)
+![Chat Interface](https://raw.githubusercontent.com/FreeAutomation-Tech/streamlit-ai-toolkit/main/assets/chat-screenshot.png)
 
 ---
 
@@ -86,7 +86,7 @@ Upload documents and get answers based on their content:
 - **Multiple files** — Upload and reference multiple documents
 - **Text preview** — View extracted text before asking questions
 
-![Document Q&A](https://raw.githubusercontent.com/anomalyco/streamlit-ai-toolkit/main/assets/docqa-screenshot.png)
+![Document Q&A](https://raw.githubusercontent.com/FreeAutomation-Tech/streamlit-ai-toolkit/main/assets/docqa-screenshot.png)
 
 ---
 
@@ -101,7 +101,7 @@ Analyze images using state-of-the-art vision models:
 - **Batch analysis** — Analyze multiple images at once
 - **Results export** — Download analysis results
 
-![Image Analysis](https://raw.githubusercontent.com/anomalyco/streamlit-ai-toolkit/main/assets/image-screenshot.png)
+![Image Analysis](https://raw.githubusercontent.com/FreeAutomation-Tech/streamlit-ai-toolkit/main/assets/image-screenshot.png)
 
 ---
 
@@ -369,7 +369,7 @@ streamlit-ai-toolkit/
 
 ```bash
 # Clone the repo
-git clone https://github.com/anomalyco/streamlit-ai-toolkit.git
+git clone https://github.com/FreeAutomation-Tech/streamlit-ai-toolkit.git
 cd streamlit-ai-toolkit
 
 # Create virtual environment
@@ -414,7 +414,7 @@ Contributions are welcome! Here's how you can help:
 
 ## 📊 Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=anomalyco/streamlit-ai-toolkit&type=Date)](https://star-history.com/#anomalyco/streamlit-ai-toolkit&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=FreeAutomation-Tech/streamlit-ai-toolkit&type=Date)](https://star-history.com/#FreeAutomation-Tech/streamlit-ai-toolkit&Date)
 
 ---
 
@@ -436,6 +436,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **If you find this project useful, please consider giving it a ⭐ star on GitHub!**
 
-[![Follow on GitHub](https://img.shields.io/github/followers/anomalyco?style=social)](https://github.com/anomalyco)
+[![Follow on GitHub](https://img.shields.io/github/followers/FreeAutomation-Tech?style=social)](https://github.com/FreeAutomation-Tech)
 
 </div>
