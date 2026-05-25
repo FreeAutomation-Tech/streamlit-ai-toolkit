@@ -74,10 +74,8 @@ jobs:
 
       - name: Check syntax of pages
         run: |
-          python -m py_compile pages/1_Chat.py
-          python -m py_compile pages/2_Document_Q&A.py
-          python -m py_compile pages/3_Image_Analysis.py
           python -m py_compile app.py
+          for f in pages/*.py; do python -m py_compile "$f"; done
           echo "All Python files have valid syntax"
 
       - name: Check package metadata
