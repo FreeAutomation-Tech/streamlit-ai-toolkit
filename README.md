@@ -439,3 +439,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 [![Follow on GitHub](https://img.shields.io/github/followers/FreeAutomation-Tech?style=social)](https://github.com/FreeAutomation-Tech)
 
 </div>
+---
+*If you find this useful, please consider giving it a star ⭐ — it helps others discover it too!*
+
+*Thank you for your support! 🙏*
